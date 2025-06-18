@@ -1,0 +1,143 @@
+
+/* Typography */
+
+/* font-family: "Open Sans", sans-serif;
+font-family: "Paprika", system-ui; */
+
+
+/* // End typography */
+
+
+/*	Resets
+	------	*/
+
+html, body, div,ul,li, span, button,h1, h2, h3, h4, h5, h6, p,a, img, footer, header, nav, section{margin: 0; padding: 0; border: 0; }
+
+ul{list-style: none;}
+ figure, figure ,img, footer, header, nav, section{display: block;}
+
+
+/* Selection colours (easy to forget) */
+/*		Default Layout
+-------------------------------------------------------------------------------
+*/
+
+/*
+
+Font property css
+
+font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;
+
+*/
+
+body{background: rgb(255,255,255);overflow-x: hidden; overflow-y:auto;}
+
+*{-webkit-box-sizing: border-box;-moz-box-sizing:border-box; box-sizing: border-box;}
+
+/* Global style */
+h1, h2, h3, h4, h5, h6{}
+p{}
+span{}
+dfn, address, em{font-style: normal;}
+label, input[type="submit"]{cursor: pointer;}
+button:focus{outline: none;}
+img{
+	width: 100%;
+	width: 100%;
+}
+.mobi{display: none;}
+.desk{display: block;}
+
+.container{max-width: 1280px;margin: 0 auto;}
+
+
+
+
+section, footer, header{float: left; width: 100%; position: relative;}
+
+body,html{height: 100%;}
+.main-wrap{min-height: 100%; overflow: hidden; padding-bottom: 116px; position: relative; overflow-x: hidden;}
+
+
+/* //Begin navbar style */
+.navbar{
+	background-color: transparent !important;
+	position: absolute;
+	z-index: 66;
+	width: 100%;
+}
+.navbar-expand-lg .navbar-collapse{
+	justify-content: end;
+}
+.navbar-expand-lg .navbar-nav{
+	margin-right: 48px;
+}
+.navbar ul li a{
+	font-size: 16px;
+	line-height: 28px;
+	color: #BBBBCB !important;
+}
+.navbar-botton button{
+	font-size: 16px;
+	line-height: 28px;
+	color: #ffffff;
+    text-transform: capitalize;
+    padding: 16px 48px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 100px;
+    border: 2px solid #F4F6FC;
+	background-color: transparent;
+
+
+}
+
+/* End navbar style */
+/* bennar style */
+.bennar{
+	padding: 126px 0 128px;
+	background: #1C1E53;
+	color: #ffffff;
+	position: relative;
+}
+.bennar-inner{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 126px;
+}
+.bennar-text{
+	width: 582px;
+}
+.bennar-text h3{
+	font-size: 54px;
+	line-height: 74px;
+	color: #FFFFFF;
+}
+.bennar-buttom{
+	display: flex;
+	grid-gap: 10px;
+	align-items: center;
+}
+.view-pricing{
+	display: flex;
+	align-items: center;
+}
+.bennar-button button{
+	font-size: 16px;
+	line-height: 28px;
+	color: #ffffff;
+    text-transform: capitalize;
+    padding: 16px 48px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 100px;
+    border: 2px solid #F4F6FC;
+	background-color: transparent;
+}
+/* bennar style */
+/* we work style */
+.we-work-right{
+	width: 320px;
+}
+.we-work-right img{
+	width: 50px;
+	height: 50px;
+}
