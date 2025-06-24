@@ -41,10 +41,10 @@ span{}
 dfn, address, em{font-style: normal;}
 label, input[type="submit"]{cursor: pointer;}
 button:focus{outline: none;}
-img{
+/* img{
 	width: 100%;
 	width: 100%;
-}
+} */
 .mobi{display: none;}
 .desk{display: block;}
 
@@ -263,6 +263,21 @@ i.fa-solid.fa-arrow-right-long{
 /* View-our-projects style */
 
 /* features style  */
+.Features{
+	padding: 128px 0;
+	background-color: #F4F6FC;
+}
+.features-head h4{
+	font-size: 48px;
+	line-height: 64px;
+}
+.features-inner{
+	margin-top: 47px;
+}
+.features-text{
+	background-color: #fff;
+	padding: 53px 33px 48px 48px;
+}
 .features-text i{
 	background: blue;
     border-radius: 68px;
@@ -278,5 +293,114 @@ i.fa-solid.fa-arrow-right-long{
     /* padding: 16px 5px 5px 5px; */
     font-size: 15px;
 }
-
+.features-inner .f-1, .f-2, .f-3{
+	margin-bottom: 24px;
+}
+.features-text h4{
+	margin-top: 22px;
+}
+.features-text p{
+	margin-top: 12px ;
+}
 /* features style  */
+/* about style  */
+.about-us{
+	background-color: #F4F6FC;
+	padding: 130px 0px;
+}
+.about-us-right h4{
+	font-size: 32px;
+	line-height: 48px;
+}
+.about-us-left h4{
+	font-size: 38px;
+	line-height: 56px;
+}
+.about-us-left {
+    max-width: 327px;
+}
+.about-us-left p{
+	font-size: 16px;
+	line-height: 28px;
+}
+.about-us-user{
+	display: flex;
+	align-items: center;
+	grid-gap: 10px;
+	margin-top: 48px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	width: 48px;
+	height: 48px;
+	border-radius: 30px;
+	background-color: transparent;
+	top: 100%;
+
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover{
+	    background: #5239FA;
+}
+.carousel-control-prev{
+	left: 85%;
+}
+
+
+
+
+/* about style  */
+.Frequently{
+	padding: 128px 0;
+}
+
+.frequently-left-text{
+	max-width: 328px;
+}
+.frequently-left-text h4{
+	font-size: 38px;
+	line-height: 56px;
+}
+.frequently-left-text p{
+	font-size: 18px;
+	line-height: 32px;
+	color: #2405F2;
+}
+
+.accordion-text button{
+	font-size: 24px;
+	line-height: 36px;
+}
+.accordion-item{
+	border: none;
+	border-bottom: 1px solid;
+    border-radius: 0 !important;
+}
+.accordion-inner{
+	display: grid;
+    grid-template-columns: 30px 1fr;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
+.accordion-button:focus{
+	box-shadow: none;
+}
+.accordion-body{
+	max-width: 624px;
+}
+.accordion-body p{
+	font-size: 18px;
+	line-height: 32px;
+}
+.accordion-count p{
+	font-size: 24px;
+	line-height: 36px;
+	color: #2405F2;
+	margin-top: 16px;
+}
+.accordion-button:not(.collapsed)::after{
+	background-image: url(../images/+.png);
+	width: 20px;
+	height: 20px;
+}
